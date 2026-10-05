@@ -1,0 +1,9 @@
+/* background color for navbar */
+.boardroom-top-bar {
+    background-color: #133B40;
+}
+
+.boardroom-top-bar a,
+.boardroom-top-bar .nav-link {
+    color: white;
+}
