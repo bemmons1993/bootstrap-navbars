@@ -3,9 +3,9 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <meta http-equiv=""X-UA-Compatible" content=""IE=edge">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>The Boardroom Kailua Navbar</title>
-      <meta name="description" content="IE=edge">
+      <meta name="description" content="Navbar Assignment">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Bootstrap Icons -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -17,15 +17,12 @@
         crossorigin="anonymous"></script>
        <!-- css file -->
        <link rel="stylesheet" href="style.css">
-
-
    </head>
-   
+
    <body>
+      <!-- 1. BOARDROOM KAILUA NAVBAR -->
       <div class="container-fluid px-0 boardroom-top-bar">
-        
         <nav class="navbar navbar-expand-lg bg-gradient">
-            
             <div class="container d-flex justify-content-between align-items-center">
 
                 <!-- instagram icon left-->
@@ -42,7 +39,6 @@
                     <li class="nav-item">
                         <a href="#">
                             <img src="./theboardroomlogo.png" alt="The Boardroom Logo" height="50">
-
                         </a>
                     </li>
                  </ul>
@@ -53,13 +49,42 @@
                         <button class="btn btn-dark" type="button">Menu</button>
                     </li>
                   </ul>
-
-                
-                
             </div>
         </nav>
       </div>
+      
+      <!-- 2. MORNING BREW NAVBAR -->
+      <div>
+        <!-- Row 1: Logo & Cart Icon -->
+        <div class="navbar navbar-expand-lg bg-light">
+          <div class="container py-2 position-relative">
+            <div class="mx-auto navbar-nav">
+              <img src="./morningbrewlogo.png" alt="Morning Brew Logo" height="50">
+            </div>
+            <div class="position-absolute end-0 top-50 translate-middle-y pe-3">
+              <a href="#" class="cart-icon text-decoration-none">
+                <i class="bi bi-bag-fill"></i>
+                <span class="cart-count">0</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: Menu Items -->
+        <div class="navbar navbar-expand-lg bg-light sticky-top">
+          <div class="container">
+            <div class="mx-auto navbar-nav flex-row flex-wrap justify-content-center">
+              <div class="nav-item border-1 border-top border-dark active border-3">Home</div>
+              <div class="nav-item border-1 border-top border-dark">Order Online</div>
+              <div class="nav-item border-1 border-top border-dark">Menus</div>
+              <div class="nav-item border-1 border-top border-dark">Locations</div>
+              <div class="nav-item border-1 border-top border-dark">About</div>
+              <div class="nav-item border-1 border-top border-dark">Shop</div>
+              <div class="nav-item border-1 border-top border-dark">Contact</div>
+            </div>
+          </div>
+        </div>
+      </div>
 
    </body>
-
 </html>
