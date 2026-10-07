@@ -11,7 +11,6 @@
 
 /* morning brew */
 
-/* Menu item styles */
 .nav-item {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -24,13 +23,12 @@
     cursor: pointer !important;
 }
 
-/* Active tab style */
 .active {
     padding-top: 0px;
     color: black;
 }
 
-/* Shopping bag icon and counter */
+/* cart icon */
 .cart-icon {
     color: #c2593f;
     font-size: 1.75rem;
@@ -72,4 +70,10 @@
     display: flex;
     align-items: center;
     white-space: nowrap;
+}
+
+
+/* aloha beer styles */
+.aloha-shop {
+    color: #EDC601 !important; /* Yellow Shop Link */
 }
