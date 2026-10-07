@@ -47,7 +47,7 @@
 }
 
 
-/* buzz styles                  */
+/* buzz styles */
 
 .buzzs-top-bar {
     background-color: rgb(48, 73, 95);
@@ -75,5 +75,45 @@
 
 /* aloha beer styles */
 .aloha-shop {
-    color: #EDC601 !important; /* Yellow Shop Link */
+    color: #EDC601 !important;
+}
+
+
+/* dukes styles */
+.dukes-top-bar {
+    background-color: #017574;
+    color: white;
+}
+
+
+.dukes-top-bar .nav-item {
+    padding: 0 !important;
+    border: none !important;
+    white-space: nowrap;
+}
+
+.dukes-nav {
+    flex-wrap: nowrap !important;
+}
+
+.dukes-nav .nav-link {
+    color: #ffffff !important;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-left: 0.65rem !important;
+    padding-right: 0.65rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    white-space: nowrap !important;
+}
+
+.dukes-nav .nav-link:hover {
+    color: #e0e0e0 !important;
+}
+
+
+.dukes-nav .dukes-takeout {
+    color: #F1A228 !important;
 }
