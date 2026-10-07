@@ -57,11 +57,11 @@
 .buzzs-top-bar h4 {
     color: white;
     margin-bottom: 0;
-    font-size: 0.95rem; /* Slightly smaller so it fits on one line */
+    font-size: 0.95rem; 
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 0.5px;
-    white-space: nowrap; /* Prevents text from breaking */
+    white-space: nowrap; 
     cursor: pointer;
 }
 
